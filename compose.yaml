@@ -6,7 +6,7 @@ services:
       - BOT_TOKEN=your_bot_token_here
       - TARGET_LANG=ZH
       - API_URL=http://127.0.0.1:1188/translate
-      - IGNORE_LANGS=EN
+      - IGNORE_LANGS=ZH
       - ALLOWED_GROUPS=-1001652593847
       - ALLOWED_USERS=890315416
     restart: always
