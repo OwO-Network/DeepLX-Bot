@@ -17,7 +17,7 @@ This bot automatically translates messages in Telegram chats. It uses the DeepL 
 You can run the bot using Docker with the following command:
 
 ```bash
-docker run missuo/deeplx-bot:latest 
+./bot -token=your_bot_token_here -target=DE -api=http://127.0.0.1:1188/translate -ignore=ZH,EN,DE -groups=-1001652593847 -users=890315416,123456789
 ```
 
 #### Available Options
