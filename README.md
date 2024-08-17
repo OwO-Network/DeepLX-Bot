@@ -112,7 +112,7 @@ You can configure the bot using environment variables or command-line arguments.
 |----------------------|-----------------------|----------------------------------------|----------------------------|
 | BOT_TOKEN            | -token                | Telegram Bot Token (required)          | -                          |
 | TARGET_LANG          | -target               | Target language for translation        | ZH                         |
-| API_URL              | -api                  | API URL for translation service        | http://deeplx:1188/translate |
+| API_URL              | -api                  | API URL for translation service        | http://127.0.0.1:1188/translate |
 | IGNORE_LANGS         | -ignore               | Comma-separated list of languages to ignore | ZH                    |
 | ALLOWED_GROUPS       | -groups               | Comma-separated list of allowed group IDs | -                      |
 | ALLOWED_USERS        | -users                | Comma-separated list of allowed user IDs | -                       |
